@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ventas</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body style="padding: 30px 100px">
+	<header>
+		<h1 align="center">Venta en Linea</h1>
+	</header>
+	<form method="post" action="" enctype="text/plain">
+		<fieldset>	
+			<legend>Informacion General</legend>
+			<table align="center">
+				<tr>
+					<td style="padding-right: 55px"><label for="Nombre">Nombre:</label></td>
+					<td style="padding-right: 55px"><label for="ApellidoP">Apellido Paterno:</label></td>
+					<td style="padding-right: 55px"><label for="ApellidoM">Apellido Materno:</label></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><input type="text" name="Nombre" maxlength="25" placeholder="Nombre" title="Nombre" required></td>
+					<td style="padding-right: 55px"><input type="text" name="ApellidoP" maxlength="25" placeholder="ApellidoP" title="ApellidoP"></td>
+					<td style="padding-right: 55px"><input type="text" name="ApellidoM" maxlength="25" placeholder="ApellidoM" title="ApellidoM"></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><label for="NombreU">Nombre de Usuario:</label></td>
+					<td style="padding-right: 55px"><label for="Contraseña">Contraseña:</label></td>
+					<td style="padding-right: 55px"><label for="ApellidoM">Fecha de Nacimiento:</label></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><input type="text" name="NombreU" maxlength="25" placeholder="Nombre de Usuario" title="NombreU" required></td>
+					<td style="padding-right: 55px"><input type="password" name="Contraseña" maxlength="25" placeholder="password" title="Contraseña" required></td>
+					<td style="padding-right: 55px"><input type="date" name="fecha" id="fechan" width="55px"></td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>	
+			<legend>Datos De facturacion</legend>
+			<table align="center">
+				<tr>
+					<td style="padding-right: 55px"><label for="Pais">Pais:</label></td>
+					<td style="padding-right: 55px"><label for="Ciudad">Ciudad:</label></td>
+					<td style="padding-right: 55px"><label for="Calle">Calle:</label></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><select name="Pais" id="Pais" multiple size="3">
+					<option>Mexico</option>
+					<option>Canada</option>
+					<option>E.U.A</option>
+					<option>Colombia</option>
+					<option>Peru</option>	
+					</select></td>
+					<td style="padding-right: 55px"><select name="Ciudad" id="Ciudad" multiple size="3">
+					<option>San Luis Potosi</option>
+					<option>Matehuala</option>
+					<option>Cd. Valles</option>
+					<option>Cardenas</option>
+					<option>Rioverde</option>	
+					</select></td>
+					<td style="padding-right: 55px"><input type="text" name="Calle" maxlength="25" placeholder="Calle" title="Calle"></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><label for="NumC">Numero de casa:</label></td>
+					<td style="padding-right: 55px"><label for="Contraseña">Colonia:</label></td>
+					<td style="padding-right: 55px"><label for="ApellidoM">Email:</label></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><input type="number" name="NumC" maxlength="25" placeholder="Numero Exterior" title="NumC"></td>
+					<td style="padding-right: 55px"><input type="text" name="Colonia" maxlength="25" placeholder="Colonia" title="Colonia"></td>
+					<td style="padding-right: 55px"><input type="text" name="Email" id="Email" maxlength="25" placeholder="Email" required></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><label for="RFC">R.F.C:</label></td>
+					<td style="padding-right: 55px"><label for="CP">C.P:</label></td>
+				</tr>
+				<tr>
+					<td style="padding-right: 55px"><input type="text" name="RFC" maxlength="25" placeholder="RFC" title="RFC" required></td>
+					<td style="padding-right: 55px"><input type="number" name="CP" maxlength="25" placeholder="Codigo Postal" title="CP"></td>
+					<td style="padding-right: 55px"><input type="submit" name="envio" id="envio" value="Enviar" required>
+				<input type="reset" name="borrar" id="borrar" value="Restablecer"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>
